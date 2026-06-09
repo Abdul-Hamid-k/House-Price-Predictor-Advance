@@ -1,9 +1,6 @@
 import pandas as pd
 import numpy as np
 
-from data_loader import data_loader
-
-
 # Columns where NaN = "No Feature" (structural)
 NONE_COLS = [
     'PoolQC', 'MiscFeature', 'Alley', 'Fence',
