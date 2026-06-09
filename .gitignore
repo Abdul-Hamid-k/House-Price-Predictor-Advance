@@ -1,0 +1,24 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.ipynb_checkpoints/
+
+# Data — raw files are large, use DVC for these later
+data/raw/
+data/processed/
+data/splits/
+
+# Models (large binary files)
+models/*.pkl
+models/*.joblib
+
+# Secrets (CRITICAL — never commit API keys)
+.env
+*.env
+kaggle.json
+
+# OS
+.DS_Store
+Thumbs.db
